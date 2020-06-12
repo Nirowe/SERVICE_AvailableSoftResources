@@ -1,0 +1,38 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.23.0
+    method: GET
+    uri: http://127.0.0.1:8000/api/employee_soft_resource_list/?id=1
+  response:
+    body:
+      string: "{\"id\":1,\"employee_soft\":[{\"id\":6,\"soft_name\":\"TEXTReader\"},{\"id\":1,\"soft_name\":\"IXMReader\"},{\"id\":4,\"soft_name\":\"TXTReaderIO\"}],\"employee_resource\":[{\"id\":1,\"name\":\"https://yandex.ru/\"},{\"id\":2,\"name\":\"https://en.wikipedia.org\"},{\"id\":3,\"name\":\"https://ru.wikipedia.org\"},{\"id\":4,\"name\":\"https://www.google.ru/\"},{\"id\":5,\"name\":\"https://habr.com/ru/\"},{\"id\":6,\"name\":\"https://stackoverflow.com/\"},{\"id\":7,\"name\":\"https://www.python.org/\"}],\"first_name\":\"\u0418\u0432\u0430\u043D\",\"last_name\":\"\u0418\u0432\u0430\u043D\u043E\u0432\",\"patronymic\":\"\u0418\u0432\u0430\u043D\u043E\u0432\u0438\u0447\",\"email\":\"ivan@mail.ru\",\"phone_number\":\"88005553535\",\"position\":\"\u0422\u0435\u0445\u043D\u0438\u043A\",\"passport\":\"1289009897\"}"
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Content-Length:
+      - '625'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 12 Jun 2020 15:42:46 GMT
+      Server:
+      - WSGIServer/0.2 CPython/3.7.3
+      Vary:
+      - Accept, Cookie
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: OK
+version: 1
